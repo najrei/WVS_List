@@ -17,6 +17,7 @@ namespace WVS_List.Models
         public virtual DbSet<Group> Groups { get; set; }
         public virtual DbSet<List> Lists { get; set; }
         public virtual DbSet<Produkt> Produkts { get; set; }
+        public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
